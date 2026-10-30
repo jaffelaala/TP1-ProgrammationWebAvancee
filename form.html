@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire d'inscription</title>
+</head>
+<body>
+    <h1>Formulaire d'inscription</h1>
+    <form action="FormServlet" method="POST">
+        Prénom : <input type="text" name="prenom"><br><br>
+        Nom : <input type="text" name="nom"><br><br>
+        Date de naissance (mm/jj/aa) : <input type="text" name="dateNaissance"><br><br>
+        
+        Sexe : 
+        <input type="radio" name="sexe" value="Homme"> Homme
+        <input type="radio" name="sexe" value="Femme"> Femme
+        <br><br>
+        
+        <input type="submit" value="Envoyer">
+    </form>
+</body>
+</html>
